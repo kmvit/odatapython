@@ -1,8 +1,5 @@
 import setuptools
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
-
 setuptools.setup(
     name="odatapython",
     version="0.0.2",
@@ -14,8 +11,8 @@ setuptools.setup(
     url="https://github.com/kmvit/odatapython.git",
     packages=setuptools.find_packages(),
     install_requires=[
-          'requests',
-      ],
+        'requests',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
