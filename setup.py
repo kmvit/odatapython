@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="odatapython",
-    version="0.0.1",
+    version="0.0.2",
     author="Andrey Galkin",
     author_email="justscoundrel@yandex.ru",
     description="API for odata 1C",
