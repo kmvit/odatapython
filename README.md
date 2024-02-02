@@ -3,5 +3,3 @@
 ##### Установка
 
 `pip install odatapython`
-
-`cpl = APIOdata(connection)`
