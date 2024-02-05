@@ -1,7 +1,7 @@
 from pprint import pprint
 
-from core import ServerConnection
-from apiodata import APIOdata
+from python1c.core import ServerConnection
+from python1c.apiodata import APIOdata
 
 # Конектимся к 1С
 server_info: str = 'ip'  # ip сервера

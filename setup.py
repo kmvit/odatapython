@@ -1,15 +1,15 @@
 import setuptools
 
 setuptools.setup(
-    name="odatapython",
-    version="0.0.2",
+    name="python-to-1c",
+    version="0.0.4",
     author="Andrey Galkin",
     author_email="justscoundrel@yandex.ru",
     description="API for odata 1C",
     long_description="API for odata 1C 8",
     long_description_content_type="text/markdown",
-    url="https://github.com/kmvit/odatapython.git",
-    packages=setuptools.find_packages(),
+    url="https://github.com/kmvit/odatapython",
+    packages=['python1c'],
     install_requires=[
         'requests',
     ],

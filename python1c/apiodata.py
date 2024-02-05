@@ -1,7 +1,7 @@
 import json
 import requests
 
-from core import ServerConnection
+from .core import ServerConnection
 
 
 class APIOdata:
@@ -27,7 +27,7 @@ class APIOdata:
     def list(self, **kwargs) -> str:
         """Получение списка объектов"""
         url = self.url
-        filter_list = ['top', 'skip', 'select', 'filter', 'expend', 'orderby']
+        filter_list = ['top', 'skip', 'select', 'filter', 'expand', 'orderby']
         for key, value in kwargs.items():
             if key in filter_list:
                 url += f'&${key}={value}'
