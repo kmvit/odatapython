@@ -1,6 +1,6 @@
 import json
 import requests
-
+from pprint import pprint
 from .core import ServerConnection
 
 
@@ -21,8 +21,8 @@ class APIOdata:
         response = requests.get(url, auth=self.server_info.auth,
                                 headers=self.server_info.headers)
         if response.status_code != 200:
-            raise Exception(response.text)
-        return json.loads(response.text)
+            raise Exception(response.json())
+        return response.json()
 
     def list(self, **kwargs) -> str:
         """Получение списка объектов"""

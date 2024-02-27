@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="python-to-1c",
-    version="0.0.4",
+    version="0.0.5",
     author="Andrey Galkin",
     author_email="justscoundrel@yandex.ru",
     description="API for odata 1C",
